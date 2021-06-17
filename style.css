@@ -1,0 +1,38 @@
+/*
+syntax:
+
+selector:pseudo_classname{
+
+   property1:value1;
+   property2:value2;
+   .
+   .
+   .
+   property N:value N;
+
+}
+
+*/
+
+.trans{
+   width:300px;
+   height:300px;
+   color:white;
+   text-align:center;
+   padding-top:20px;
+   background-color:red;
+   box-sizing:border-box;
+   animation-name:myanim;
+   animation-duration:8s;
+}
+
+@keyframes myanim{
+
+  
+  25% {background-color:blue;}
+  50% {background-color:green;}
+  75% {background-color:yellow;}
+  100% {background-color:pink;}
+}
+
+
